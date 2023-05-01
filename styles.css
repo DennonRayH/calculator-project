@@ -64,10 +64,11 @@ button .number {
     height: 100px;
     border-radius: 60px;
     background: transparent;
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
     cursor:pointer;
     margin: 5px;
+
     
  }
  
@@ -78,7 +79,7 @@ form .display {
  }
 
 div .display input {
-    height:70px;
+    height:90px;
     width: 100%;
     text-align: right;
     flex: 1;
@@ -91,6 +92,17 @@ div .display input {
 
 div button.numberzero {
     width: 210px;
+    background-color:grey ;
+}
+
+div button.operationtwo {
+    background-color: lightgrey;
+}
+div button.operationone {
+    background-color: orange;
+}
+div button.number  {
+    background-color: grey;
 }
 
 
