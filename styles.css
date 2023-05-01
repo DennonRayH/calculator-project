@@ -50,36 +50,47 @@ button .number {
     border-radius: 10px;
 }
  
-input {
+/*input {
     background: black;
     color: white;
- }
- 
+    max-width: 90%;
+    
+ }*/
+
 .calculator div button {
     border: 0;
-    outline: 0;
+    outline:none;
     width: 100px;
     height: 100px;
-    border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2), 5px 5px 15px rgba(0, 0,0, 0.2);
+    border-radius: 60px;
     background: transparent;
     font-size: 20px;
     color: #fff;
     cursor:pointer;
-    margin: 10px;
+    margin: 5px;
     
  }
  
-div .display{
+form .display {
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
  }
 
-form .display input {
+div .display input {
+    height:70px;
+    width: 100%;
     text-align: right;
     flex: 1;
-    font-size: 45px;
+    font-size: 25px;
     box-shadow: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 0;
  }
+
+div button.numberzero {
+    width: 210px;
+}
+
 
