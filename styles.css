@@ -55,12 +55,12 @@ button .number {
     color: white;
     max-width: 90%;
     
- }*/
+}*/
 
 .calculator div button {
     border: 0;
     outline:none;
-    width: 100px;
+    width: 98px;
     height: 100px;
     border-radius: 60px;
     background: transparent;
